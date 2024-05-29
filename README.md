@@ -36,8 +36,8 @@ CREATE TABLE university_student (
 Note: The API POST/PUT for students can include universities together.
 
 POST/PUT format:
-POST: university_id is optional.
-PUT: name and university_id are optional.
+* POST: university_id is optional. 
+* PUT: name and university_id are optional.
 ```json
 { 
   "name": "Student Name", 
